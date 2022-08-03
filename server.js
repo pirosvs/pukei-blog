@@ -4,7 +4,8 @@ const path = require('path');
 const mysql = require('mysql2');
 const exphbs = require('express-handlebars');
 const routes = require('./controllers');
-const helpers = require('./utils/helpers');
+// const auth = require('./utils/auth'); Do I need to include auth?
+// Do I need to add the routers in my controller indexes?
 
 const app = express();
 const PORT = process.env.PORT || 3001;
