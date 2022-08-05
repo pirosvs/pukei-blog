@@ -1,7 +1,7 @@
 # pukei-blog
 
 ## Deployment Link
-<a href="https://pirosvs.github.io/pukei-blog/">Click here to view the project</a>
+<a href="https://fierce-inlet-34878.herokuapp.com/">Click here to view the project</a>
 
 ## Description
 Purpose:
