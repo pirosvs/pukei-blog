@@ -4,7 +4,9 @@
     "connect-session-sequelize": "^7.1.4",
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
-    "express-session": "^1.17.3"
+    "express-handlebars": "^6.0.6",
+    "express-session": "^1.17.3",
+    "mysql2": "^2.3.3"
   },
   "scripts": {
     "start": "node server.js"
@@ -13,7 +15,6 @@
   "description": "<a href=\"https://pirosvs.github.io/pukei-blog/\">Click here to view the project</a>",
   "version": "1.0.0",
   "main": "server.js",
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pirosvs/pukei-blog.git"

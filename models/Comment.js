@@ -39,4 +39,4 @@ Comment.init(
   }
 );
 
-module.exports = BlogPost;
+module.exports = Comment;

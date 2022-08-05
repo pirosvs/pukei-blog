@@ -16,7 +16,7 @@ const sess = {
 
 app.use(session(sess));
 
-const hbs = exphbs.create({ helpers: helpers });
+const hbs = exphbs.create();
 app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
 

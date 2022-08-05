@@ -3,29 +3,29 @@ const BlogPost = require('./BlogPost.js');
 const Comment = require('./Comment.js');
 
 // user has many post
-Post.belongsTo(User, {
+BlogPost.belongsTo(User, {
     foreignKey: 'user_id',
 });
 
-User.hasMany(Post, {
+User.hasMany(BlogPost, {
     foreignKey: 'user_id',
 });
 
-Post.hasOne(User, {
+BlogPost.hasOne(User, {
     foreignKey: 'user_id',
 });
 // post has one user
 
 // post has many comments
-Comment.belongsTo(Post, {
+Comment.belongsTo(BlogPost, {
     foreignKey: 'post_id',
 });
 
-Post.hasMany(Comment, {
+BlogPost.hasMany(Comment, {
     foreignKey: 'post_id',
 });
 
-Comment.hasOne(Post, {
+Comment.hasOne(BlogPost, {
     foreignKey: 'post_id',
 });
 // comments have one post?
