@@ -11,10 +11,6 @@ Comment.init(
       primaryKey: true,
       autoIncrement: true,
     },
-    // needs to take user id
-    // needs to take in post id
-    // body/ text of the comment
-    // date posted
     body: {
       type: DataTypes.TEXT,
       allowNull: false,
