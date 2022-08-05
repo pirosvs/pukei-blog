@@ -5,6 +5,6 @@ THEN I am taken to the homepage and presented with existing blog posts that incl
 
 {{#each blogposts as |blogpost|}}
 <div class="col-9 offset-1">
-    <span>{{blogpost.title}} {{blogpost.timestamp}}</span>
+    <span id="{{blogpost.id}}">{{blogpost.title}} {{blogpost.timestamp}}</span>
 </div>
 {{/each}}
