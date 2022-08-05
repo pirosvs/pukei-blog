@@ -2,3 +2,9 @@
 THEN I am taken to the homepage and presented with existing blog posts that include the post title and the date created --}}
 
 {{!-- likely need to create separate handlebars files for blog post --}}
+
+{{#each blogposts as |blogpost|}}
+<div class="col-9 offset-1">
+    <span>{{blogpost.title}} {{blogpost.timestamp}}</span>
+</div>
+{{/each}}
