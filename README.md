@@ -11,6 +11,12 @@ Purpose:
 Skills:
 - ORM, MVC, MySQL2, Sequelize, Handlebars, session and cookies to stay logged in
 
+Needs:
+- JS for creating a post, comment
+- JS to use buttons to take put and delete routes for posts
+- buttons in posts in handlebars
+- correct routes/ route organization
+
 ## Credits
 
 ## License
